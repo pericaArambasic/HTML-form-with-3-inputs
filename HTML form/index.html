@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form zadatak</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>HTML formular sa 3 inputa</h1>
+        <div id="form">
+            <form name="basic_form" action="#" method="POST">
+                <label for="ime_i_prezime">Ime i prezime:</label><br>
+                <input type="text" name="ime_i_prezime" size="30" maxlength="30" id="ime_i_prezime" required><br><br>
+                <label for="opis">Opis:</label><br>
+                <textarea name="opis" id="" cols="30" rows="5"></textarea><br><br>
+                <label for="spol">Spol:</label><br>
+                <input type="radio" name="spol" id="muško" value="muško" required>
+                <label for="muško">Muško</label><br>
+                <input type="radio" name="spol" id="žensko" value="žensko" required>
+                <label for="žensko">Žensko</label><br>
+                <input type="radio" name="spol" id="drugo" value="drugo" required>
+                <label for="drugo">Drugo</label><br><br>
+                <input type="reset" name="reset" id="poništi" value="Poništi">
+                <input type="submit" name="" id="pošalji" value="Pošalji">
+            </form>
+        </div>
+
+        <h2>Link na HTML5 validator</h2>
+        <button><a href="https://validator.w3.org/" target="_blank">HTML5 validator</a></button>
+
+        <h3>Ostalo</h3>
+        <p>Nažalost, ostat ću suzdržan što se tiče viceva. Ali imam sigurniju opciju.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/pcnFbCCgTo4" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </main>
+
+    <footer>Autor:<em>Arambašić Perica</em></footer>
+</body>
+
+</html>
