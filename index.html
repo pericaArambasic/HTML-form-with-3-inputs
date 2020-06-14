@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>HTML form zadatak</title>
+ <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+        integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+
+<body>
+ <main>
+  <h1 id="top">HTML formular sa 3 inputa</h1>
+  <div id="form">
+   <form name="basic_form" action="#" method="POST">
+    <label for="ime_i_prezime">Ime i prezime*</label><br>
+    <input type="text" name="ime_i_prezime" size="30" maxlength="30" id="ime_i_prezime" required><br><br>
+    <label for="opis">Opis</label><br>
+    <textarea name="opis" id="opis" cols="30" rows="5"></textarea><br><br>
+    <p>Spol*</p><br><br>
+    <input type="radio" name="spol" id="muško" value="muško" required>
+    <label for="muško">Muško</label>
+    <input type="radio" name="spol" id="žensko" value="žensko" required>
+    <label for="žensko">Žensko</label>
+    <input type="radio" name="spol" id="drugo" value="drugo" required>
+    <label for="drugo">Drugo</label><br><br>
+    <p>*<em>obavezna polja</em></p>
+    <input type="reset" name="reset" id="poništi" value="Poništi">
+    <input type="submit" name="submit" id="pošalji" value="Pošalji">
+   </form>
+  </div><hr>
+  
+  <h2>Link na HTML5 validator</h2>
+  <div id="validator">
+   <a href="https://validator.w3.org/" target="_blank">HTML5 validator</a>
+  </div><hr>
+  
+  <h3>Ostalo</h3>
+  <div id="ostalo">
+   <h4>The worst tourist</h4>
+   <p>The least successful tourist on record is Mr Nicholas Scotti of San Francisco. In 1977 he flew from
+                America to his native Italy to visit relatives.
+                En route the plane made a one-hour fuel stop at Kennedy Airport. Thinking that he had arrived, Mr Scotti
+                got out and spent two days in New York believing he was in Rome.
+                When his nephews were not there to meet him, Mr Scotti assumed they had been delayed in the heavy Roman
+                traffic mentioned in their letters. While tracking down their address, the great traveller could not
+                help noticing that modernization had brushed aside most, if not all, of the ancient city’s landmarks.
+                He also noticed that many people spoke English with a distinct American accent. However, he just assumed
+                that Americans got everywhere. Furthermore, he assumed it was for their benefit that so many street
+                signs were written in English.
+                Mr Scotti spoke very little English himself and next asked a policeman (in Italian) the way to the bus
+                depot. As chance would have it, the policeman came from Naples and replied fluently in the same tongue.
+                After twelve hours travelling round on a bus, the driver handed him over to a second policeman. There
+                followed a brief argument in which Mr Scotti expressed amazement at the Rome police force employing
+                someone who did not speak his own language.
+                Scotti’s brilliance is seen in the fact that even when told he was in New York, he refused to believe
+                it.
+                To get him on a plane back to San Francisco, he was raced to the airport in a police car with sirens
+                screaming. ‘See,’ said Scotti to his interpreter, ‘I know I’m in Italy. That’s how they drive.’</p>
+    <p>Dio iz knjige <a href="https://en.wikipedia.org/wiki/The_Book_of_Heroic_Failures" target="_blank"> The Book of Heroic Failures </a></p>
+  </div>
+  <div id="gumb"><a href="#top"><i class="fas fa-arrow-circle-up fa-4x"></i></a></div>
+  
+ </main>
+ <footer>Autor:<em>Arambašić Perica</em></footer>
+</body>
+
+</html>
