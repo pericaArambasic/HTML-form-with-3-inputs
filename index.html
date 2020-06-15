@@ -5,7 +5,7 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>HTML form zadatak</title>
- <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="style.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
         integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
@@ -17,14 +17,14 @@
   <div id="form">
    <form name="basic_form" action="#" method="POST">
     <label for="ime_i_prezime">Ime i prezime*</label><br>
-    <input type="text" name="ime_i_prezime" size="15" maxlength="20" id="ime_i_prezime" required><br><br>
+    <input type="text" name="ime_i_prezime"  id="ime_i_prezime" required><br><br>
     <label for="opis">Opis</label><br>
-    <textarea name="opis" id="opis" cols="20" rows="5"></textarea><br><br>
-    <p>Spol*</p><br><br>
+    <textarea name="opis" id="opis" cols="20" rows="5" placeholder="Unesite vaš tekst ovdje"></textarea><br><br>
+    <p>Spol*</p>
     <input type="radio" name="spol" id="muško" value="muško" required>
-    <label for="muško">Muško</label>
+    <label for="muško">Muško</label><br>
     <input type="radio" name="spol" id="žensko" value="žensko" required>
-    <label for="žensko">Žensko</label>
+    <label for="žensko">Žensko</label><br>
     <input type="radio" name="spol" id="drugo" value="drugo" required>
     <label for="drugo">Drugo</label><br><br>
     <p>*<em>obavezna polja</em></p>
